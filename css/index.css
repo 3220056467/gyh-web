@@ -1,0 +1,181 @@
+ body{
+    background-color:rgb(191, 187, 248);
+ }
+ .header{
+    /* background-color: antiquewhite; */
+    height: 100px;
+ }
+ .wrap{
+    display: flex;
+} 
+.logo a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/公主.png);
+    font-size: 0;
+    background-size: contain;
+    margin-left: 60px;
+} 
+.wrap .name{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.wrap .out{
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: 30px;
+}
+.wrap .login{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/退出登录.png);
+    background-size: contain;
+    margin-top: 25px;
+    margin-left: 20px;
+    box-shadow: 2px 5px 10px 1px black;
+    border-radius: 10px  ;
+}
+.middle{
+    height: 400px;
+    display: flex;
+}
+.middle .left{
+    width: 50%  ;
+    /* background-color: rgb(234, 155, 240); */
+}
+.middle .right{
+    width: 50%;
+    /* background-color: blue; */
+}
+.middle .left .second{
+    display: flex;
+}
+.middle .second .img{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/宠物摄影.png);
+    background-size: contain;
+    margin-top: 20px ;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.middle .second span{
+    color: black;
+    font-size: 70px;
+}
+.middle .left .first{
+    color: black;
+    height: 200px;
+    /* background-color: aliceblue; */
+    font-size: 70px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-left: 60px;
+}
+.middle .left .tt{
+    display: flex;
+}
+.middle .tt .text1{
+    color:black;
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.middle .tt .text2{
+    color:black;
+    font-size: 10px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.middle .right .people{
+    width: 550px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url(../images/人物摄影2.JPG);
+    background-size: contain;
+}
+.middle .right a{
+    /* background-color: #fac4f9; */
+    display: flex;
+}
+.middle .right .leftimg{
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/向左箭头.png);
+    background-size: contain;
+}
+.middle .right .point{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right .leftatal:hover{
+    color: blue;
+}
+.bottom{
+    display: flex;
+}
+.bottom .explain{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 60px;
+}
+.bottom .explain .first{
+    /* background-color: aqua; */
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottom .explain .img2{
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+}
+.bottom .img2 .img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url(/images/兔子.png);
+    background-size: contain;
+}
+.bottom .photo{
+    display: flex;
+    width: 800px;
+    height: 250px;
+    /* background-color: aqua; */
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.bottom .photo .animal{
+    width: 350px;
+    height: 250px;
+    background-image: url(/images/长颈鹿_20230608205103.jpg);
+    background-size: cover;
+}
+.bottom .photo .round{
+    width: 350px;
+    height: 250px;
+    background-image: url(/images/景物/景物横4.jpg);
+    background-size: cover;
+}
+.bottom .photo .jing{
+
+    width: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.bottom .photo .dong{
+    width: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
